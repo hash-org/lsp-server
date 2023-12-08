@@ -1,2 +1,2 @@
-# lsp_server
+# lsp-server
 The Hash language server

@@ -11,6 +11,9 @@ path = "./src/main.rs"
 
 [dependencies]
 log = "0.4"
-simple_logger = {version ="4.3", features = ["stderr"]}
+simple_logger = { version = "4.3", features = ["stderr"] }
 tokio = { version = "1.35", features = ["full"] }
 tower-lsp = "0.20"
+tower-service = "0.3"
+tower = "0.4"
+futures = "0.3"
